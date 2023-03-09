@@ -3,4 +3,5 @@ from django.urls import path
 app_name='hello'
 urlpatterns=[
     path('pspk/',pspk,name='pspk'),
+    path('harish/',harish,name='harish'),
 ]
